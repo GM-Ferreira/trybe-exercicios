@@ -1,0 +1,213 @@
+    1  ls
+    2  cd Donwloads
+    3  cd Downloads
+    4  ls
+    5  ..
+    6  cat
+    7  ls
+    8  cd Documentos
+    9  cat > teste01.txt
+   10  cat teste01.txt
+   11  sort > teste01.txt
+   12  cat teste01.txt
+   13  cat >> teste01.txt
+   14  cat teste01.txt
+   15  cat >> teste01.txt
+   16  sort < teste01.txt
+   17  sort < teste01.txt > testeArrumado.txt
+   18  cat testeArrumado.txt
+   19  rm testeArrumado.txt
+   20  rm teste01.txt
+   21  touch teste.txt
+   22  cat >> teste.txt
+   23  grep 1 teste.txt
+   24  cat >> teste.txt 10
+   25  cat >> teste.txt
+   26  cat teste.txt
+   27  grep 1 teste.txt | sort
+   28  ls
+   29  rm teste.txt
+   30  ls
+   31  clear
+   32  ls -l
+   33  ..
+   34  ls
+   35  ls -l
+   36  ll
+   37  clear
+   38  ps
+   39  jobs
+   40  history
+   41  history | tail
+   42  echo "Teste"
+   43  clear
+   44  ls
+   45  cd Documentos
+   46  cat > dataOne.txt
+   47  sort > dataOne.txt
+   48  cat dataOne.txt
+   49  ls
+   50  cat >> dataOne.txt
+   51  cat > dataTwo.txt
+   52  clear
+   53  sort dataOne.txt > dataTwo.txt
+   54  ls
+   55  cat dataTwo.txt
+   56  cat dataOne.txt
+   57  man who
+   58  man ls -la
+   59  who
+   60  sleep 10
+   61  clear
+   62  ls
+   63  Documentos
+   64  ls
+   65  Aulas\ Trybe
+   66  ls
+   67  Módulo\ 01
+   68  Módulo_01
+   69  ..
+   70  ls
+   71  Documentos
+   72  ls
+   73  Aulas_Trybe
+   74  ls
+   75  Módulo_01
+   76  ls
+   77  clear
+   78  ls
+   79  unix_
+   80  unix_tests
+   81  cat > skills2.txt
+   82  cat >> skills2.txt
+   83  cat skills2.txt
+   84  ls -l skills2.txt
+   85  cat -l skills2.txt
+   86  cont
+   87  count
+   88  gcount 
+   89  ls
+   90  Documentos
+   91  ls
+   92  Aulas_Trybe
+   93  ls
+   94  Módulo_01
+   95  ls
+   96  unix_
+   97  unix_tests
+   98  ls
+   99  clear
+  100  ls
+  101  wc skills2.txt
+  102  wc -l skills2.txt
+  103  head -3 skills2 |  cat > top_skills.txt  
+  104  head
+  105  head skills2.txt 
+  106  head -2 skills2.txt
+  107  head -3 skills2
+  108  head -3 skills2.txt |  cat > top_skills.txt  
+  109  ls
+  110  cat top_skills.txt
+  111  head -3 skills2.txt |sort |  cat > top_skills.txt  
+  112  cat top_skills.txt
+  113  cat > phrases2.txt
+  114  find -name *br phrases2.txt
+  115  find -name *1 phrases2.txt
+  116  find -name ' *1' phrases2.txt
+  117  find -name  '*1' phrases2.txt
+  118  find -name  '*1' >  phrases2.txt
+  119  cat phrases2.txt
+  120  OA
+  121  ls
+  122  Documentos
+  123  ls
+  124  Aulas_Trybe
+  125  ls
+  126  Módulo_01
+  127  ls
+  128  unix_tests
+  129  ls
+  130  cat phrases2.txt
+  131  cat > phrases2.txt
+  132  find . -name '*br*'
+  133  find . -iname '*br*'
+  134  find . -iname '*Br*'
+  135  find . -name '*Br*'
+  136  find . -name 'Br*'
+  137  find . -name 'Br*.txt'
+  138  cat phrases2.txt
+  139  man grep
+  140  grep 'Br'
+  141  grep '*Br*' > phrases2.txt
+  142  cat phrases2.txt
+  143  cat >  phrases2.txt
+  144  grep 'Braz' phrases2.txt
+  145  grep 'br' phrases2.txt
+  146  grep 'br' phrases2.txt | wc
+  147  grep 'br' phrases2.txt | wc -l
+  148  grep -v  'br' phrases2.txt | wc -l
+  149  cat >> phrases2.txt
+  150  cat > junta1.txt > junta2.txt > junta3.txt
+  151  cat junta1.txt > junta2.txt
+  152  cat junta1.txt
+  153  cat junta2.txt
+  154  cat junta1.txt >> junta2.txt
+  155  cat junta2.txt
+  156  cat junta1.txt >> junta2.txt >> junta3.txt
+  157  cat junta1.txt
+  158  cat junta2.txt
+  159  cat junta3.txt
+  160  cat junta1.txt junta2.txt > junta3.txt
+  161  cat junta3.txt
+  162  cat junta1.txt
+  163  cat junta2.txt
+  164  clear
+  165  cat phrases2.txt
+  166  cat > countries.txt
+  167  cat phrases2.txt countries.txt > bunch_of_things.txt
+  168  cat bunch_of_things.txt
+  169  sort bunch_of_things.txt | cat > bunch_of_things.txt
+  170  cat bunch_of_things.txt
+  171  cat > bunch_of_things.txt
+  172  sort < bunch_of_things.txt
+  173  sort < bunch_of_things.txt | cat > bunch_of_things.txt
+  174  cat bunch_of_things.txt
+  175  cat > bunch_of_things.txt
+  176  grep 'Br' bunch_of_things.txt
+  177  echo bunch_of_things.txt
+  178  sort bunch_of_things.txt
+  179  sort bunch_of_things.txt | cat >> bunch_of_things.txt
+  180  cat bunch_of_things.txt
+  181  cat > bunch_of_things.txt
+  182  cat bunch_of_things.txt
+  183  sort bunch_of_things.txt | cat > bunch_of_things.txt
+  184  cat bunch_of_things.txt
+  185  cat > bunch_of_things.txt
+  186  cat bunch_of_things.txt
+  187  sort bunch_of_things.txt | > bunch_of_things.txt
+  188  cat bunch_of_things.txt
+  189  cat > Painel.txt
+  190  history | cat > Painel.txt
+  191  cat Painel.txt
+  192  ls
+  193  Documentos
+  194  ls
+  195  Aulas_Trybe
+  196  ls
+  197  Módulo_01
+  198  ls
+  199  unix_tests
+  200  ls
+  201  clear
+  202  ls -l
+  203  chmod a bunch_of_things.txt 666
+  204  chmod --help
+  205  ls -l
+  206  chmod a= bunch_of_things.txt 666
+  207  chmod 666  bunch_of_things.txt
+  208  ls -l
+  209  chmod 444 bunch_of_things.txt
+  210  lsl -l
+  211  ls -l
+  212  chmod 644 bunch_of_things.txt
+  213  ls -l
