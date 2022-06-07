@@ -1,0 +1,33 @@
+Fazer lista de compras
+Colocar o edenreço no GPS
+Decidir ir apé ou de carro
+Se longe = ir de carro; Se perto = ir apé
+Pegar chave do carro
+Pegar a carteira
+Abrir o portão
+Entra no carro
+Liga o carro
+Sai da garagem
+Fecha portão
+Segue GPS
+Estacionar
+Desliga o carro
+Pegar a carteira
+Tranca carro
+Comparar preço
+Análisar lista
+Escolher barraca
+Comprar itens menos delicados primeiro
+Comprar itens mais delicados
+Verificar o que falta da lista
+Voltar pro carro
+Guardar compras
+Ligar o carro 
+Seguir trajeto de volta
+Abrir o portão
+Guardar o carro
+Fechar portão
+Pegar compras no carro
+Separar compras que irão pra geladeira
+Guardar na geladeira
+Experimentar uma fruta
