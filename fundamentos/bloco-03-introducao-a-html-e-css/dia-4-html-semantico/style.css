@@ -11,9 +11,41 @@ header{
 header ul li{
     border: 1px solid black;
     display: inline-block;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
     font-family: monospace;
     padding: 5px;
 }
 
+header ul li:hover{
+    color: white;
+    background-color: black;
+}
+
+.imagem-inicial{
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 350px;
+}
+
+article{
+    border: 1px solid red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section-p1{
+    border: 1px solid black;
+    padding: 20px 50px;
+    width: 40%;
+    display: inline-block;
+}
+
+.section-reinos{
+    border: 1px solid orange;
+    display: inline-block;
+
+}
