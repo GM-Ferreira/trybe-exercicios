@@ -1,0 +1,19 @@
+body{
+    font-family: monospace;
+}
+
+header{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: top;
+}
+
+header ul li{
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: monospace;
+    padding: 5px;
+}
+
