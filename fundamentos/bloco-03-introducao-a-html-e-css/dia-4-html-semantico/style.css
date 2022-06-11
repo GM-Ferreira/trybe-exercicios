@@ -27,24 +27,52 @@ header ul li:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    width: 350px;
+    margin-top:
+    width:200px
+    image-orientation: none;
+    transform: rotate(0.25turn);
+    
+
 }
 
 article{
     border: 1px solid red;
     margin-top: 10px;
+    position: relative;
+}
+
+article h2{
     text-align: center;
 }
 
 .section-p1{
     border: 1px solid black;
-    padding: 20px 50px;
+    padding: 20px 50px 10px  50px;
     width: 40%;
     display: inline-block;
+    text-align: justify;
+    margin-left: 20%;
 }
+
+.section-p1 h3{
+text-align: center ;
+}
+
 
 .section-reinos{
     border: 1px solid orange;
     display: inline-block;
+    padding-right: 20px;
+    position: absolute;
+    top: 145px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.section-reinos h3{
+    font-size:medium;
+    text-align: center;
+}
+.section-reinos ul li{
+    list-style: circle;
+    text-align: left;
 }
