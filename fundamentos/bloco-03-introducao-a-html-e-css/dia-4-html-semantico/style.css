@@ -44,7 +44,7 @@ article h2{
     text-align: center;
 }
 
-.section-p1,.section-what, .section-where, .section-eat, .section-boxe{
+.section-p1,.section-what, .section-where, .section-eat, .section-boxe, .section-refs{
     border: 1px solid black;
     padding: 20px 50px 10px  50px;
     width: 40%;
@@ -87,4 +87,24 @@ text-align: center ;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 15px;
+}
+
+.section-refs{
+    background-color: rgba(224, 224, 224, 0.377);
+}
+
+.section-refs a{
+    text-decoration: none;
+    color: black;
+}
+.section-refs a:hover{
+    text-decoration-line: underline;
+}
+
+.video{
+    /* margin-top: 15px; */
+    width:450px;
+    height:250px;
+    display: block;
+    /* float: right; */
 }
