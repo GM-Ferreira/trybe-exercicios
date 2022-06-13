@@ -27,16 +27,15 @@ header ul li:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:
-    width:200px
+    margin-top: -80px;
+    margin-bottom: -80px;
+    width: 200px;
     image-orientation: none;
     transform: rotate(0.25turn);
-    
-
 }
 
 article{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 10px;
     position: relative;
 }
@@ -45,34 +44,47 @@ article h2{
     text-align: center;
 }
 
-.section-p1{
+.section-p1,.section-what, .section-where, .section-eat, .section-boxe{
     border: 1px solid black;
     padding: 20px 50px 10px  50px;
     width: 40%;
     display: inline-block;
     text-align: justify;
     margin-left: 20%;
+    margin-top: 20px;
 }
 
-.section-p1 h3{
+.section-p1 h3, .section-what h3, .section-where h3, .section-eat h3, .section-boxe h3{
 text-align: center ;
 }
 
-
 .section-reinos{
-    border: 1px solid orange;
+    border: 1px solid black;
+    /* background-color: gray; */
+    /* color: white; */
     display: inline-block;
     padding-right: 20px;
     position: absolute;
-    top: 145px;
+    top: 135px;
     padding-top: 20px;
+    padding-bottom:34px;
     margin-left: 10px;
 }
+
 .section-reinos h3{
     font-size:medium;
     text-align: center;
+
 }
 .section-reinos ul li{
     list-style: circle;
     text-align: left;
+}
+
+.section-what img, .section-where img, .section-eat img, .section-boxe img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
 }
