@@ -84,3 +84,15 @@ if (nota >= 90 && nota <= 100) {
 }else {
 console.log('Valor incorreto, verificar');
 }
+
+// Parte 8
+
+const v1 = 2;
+const v2 = 3;
+const v3 = 5;
+
+if ((v1%2)==0 || (v2%2)==0 || (v3%2)==0) {
+    console.log(true);
+}else {
+    console.log(false);
+}
