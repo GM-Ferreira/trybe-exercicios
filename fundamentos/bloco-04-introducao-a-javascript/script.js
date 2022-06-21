@@ -46,7 +46,7 @@ if (t1>0 && t2>0 && t3>0 && (t1+t2+t3)>180) {
 }
 
 // Parte 6
-let peca = 'Peao';
+let peca = 'Pele';
 let result = peca.toLowerCase()
 
 if (result == 'rei') {
@@ -61,5 +61,26 @@ if (result == 'rei') {
     console.log('em L');
 }else if (result == 'peao') {
     console.log('Para frente');
+}else {
+    console.log('Peça invalida');
 }
 
+// Parte 7
+
+let nota = 81;
+
+if (nota >= 90 && nota <= 100) {
+    console.log('A');
+}else if (nota >= 80 && nota < 90) {
+    console.log('B');
+}else if (nota >= 70 && nota<80) {
+    console.log('C');
+}else if (nota >= 60 && nota < 70) {
+    console.log('D');
+}else if (nota >= 50 && nota < 60) {
+    console.log('E');
+}else if (nota < 50 && nota > 0) {
+    console.log('F');
+}else {
+console.log('Valor incorreto, verificar');
+}
