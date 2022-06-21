@@ -96,3 +96,70 @@ if ((v1%2)==0 || (v2%2)==0 || (v3%2)==0) {
 }else {
     console.log(false);
 }
+
+// Parte 9
+
+const v4 = 3;
+const v5 = 4;
+const v6 = 6;
+
+if ((v4%2)!==0 || (v5%2)!==0 || (v6%2)!==0) {
+    console.log(true);
+}else {
+    console.log(false);
+}
+
+// Parte 10
+
+const custo = 100;
+const venda = 300;
+if (custo>0 && venda>0) {
+    let lucro = venda-(custo+(custo*0.2));
+    console.log(lucro*1000);    
+}else{
+    console.log('Valores menores que zero, revise');
+}
+
+// Parte 11
+
+let salarioBruto = 2500;
+let salarioLiquido;
+let salarioBase;
+let INSS;
+let IR;
+let parcela;
+
+if (salarioBruto <= 1556.94) {
+    INSS = 0.08 * salarioBruto 
+    salarioBase = salarioBruto - INSS
+}else if (salarioBruto >=1556.95 && salarioBruto <= 2594.92) {
+    INSS = 0.09 * salarioBruto
+    salarioBase = salarioBruto - INSS
+}else if (salarioBruto >=2594.93 && salarioBruto <= 5189.82) {
+    INSS = 0.11 * salarioBruto
+    salarioBase = salarioBruto - INSS
+}else if (salarioBruto >=5189.82) {
+    INSS = 570.88
+    salarioBase = salarioBruto - INSS
+}
+
+if (salarioBase <= 1903.98) {
+    IR = 1;
+    parcela = 0;
+}else if (salarioBase >= 1903.99 && salarioBase <= 2826.65) {
+    IR = 0.075
+    parcela = 142.80;
+}else if (salarioBase >= 2826.66 && salarioBase <= 3751.05) {
+    IR = 0.15
+    parcela = 354.80
+}else if (salarioBase >= 3751.06 && salarioBase <= 4664.68) {
+    IR = 0.225
+    parcela = 636.13
+}else if (salarioBase >= 4664.68) {
+    IR = 0.275
+    parcela = 869.36
+}
+
+salarioLiquido = salarioBase - (salarioBase * IR - parcela);
+
+console.log(salarioLiquido);
