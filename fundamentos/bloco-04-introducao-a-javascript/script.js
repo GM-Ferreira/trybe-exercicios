@@ -44,3 +44,22 @@ if (t1>0 && t2>0 && t3>0 && (t1+t2+t3)>180) {
 }else {
     console.log('Valores invalidos');
 }
+
+// Parte 6
+let peca = 'Peao';
+let result = peca.toLowerCase()
+
+if (result == 'rei') {
+    console.log('Todas direções');
+}else if (result == 'rainha') {
+    console.log('Todas direções');
+}else if (result == 'bispo') {
+    console.log('Diagonal');
+}else if (result == 'torre') {
+    console.log('Vertical e horizontal');
+}else if (result == 'cavalo') {
+    console.log('em L');
+}else if (result == 'peao') {
+    console.log('Para frente');
+}
+
