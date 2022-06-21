@@ -8,8 +8,10 @@ console.log(a / b);
 console.log(a % b);
 
 let c = 10;
-let d = 78;
+let d = 2;
+let e = 26;
 
-if (c > d) {
+if (c > d && c > e) {
     console.log(c);
-}else { console.log(d);}
+} else if (d > c && d > e) { console.log(d); }
+else { console.log(e); }
