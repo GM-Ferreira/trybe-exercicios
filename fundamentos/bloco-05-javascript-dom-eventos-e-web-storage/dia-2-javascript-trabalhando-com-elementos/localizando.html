@@ -1,0 +1,40 @@
+<main id="paiDoPai">
+    <section id="pai">
+        <section id="primeiroFilho"></section>
+        <section id="elementoOndeVoceEsta">
+            <section id="primeiroFilhoDoFilho"></section>
+            <section id="segundoEUltimoFilhoDoFilho"></section>
+        </section>
+        Atenção!
+        <section id="terceiroFilho"></section>
+        <section id="quartoEUltimoFilho"></section>
+    </section>
+</main>
+<script>
+    // Parte 1 - acesse o elemento;
+    document.getElementById('elementoOndeVoceEsta');
+
+    // Parte 2 - adicione uma color ao pai;
+    document.getElementById('elementoOndeVoceEsta').parentElement.style.color = 'blue';
+
+    // Parte 3 - acesse primeiroFilhoDoFilho e coloque texto;
+    document.getElementById('primeiroFilhoDoFilho').innerText = 'Adicionado vis JavaScript';
+
+    // Parte 4 - acesse primeiroFilho a partir de pai;
+    document.getElementById('pai').firstElementChild
+
+    // Parte 5 - Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta;
+    document.getElementById('elementoOndeVoceEsta').previousElementSibling;
+    
+    // Parte 6 - Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta;
+
+    console.log(document.getElementById('elementoOndeVoceEsta').nextSibling);
+
+    // Parte 7 - Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta;
+
+    console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling);
+
+    // Parte 8 - Agora acesse o terceiroFilho a partir de pai;
+    console.log(document.getElementById('pai').lastElementChild.previousElementSibling);
+
+</script>
