@@ -37,4 +37,38 @@
     // Parte 8 - Agora acesse o terceiroFilho a partir de pai;
     console.log(document.getElementById('pai').lastElementChild.previousElementSibling);
 
+    // Parte 9 - Crie um irmão para elementoOndeVoceEsta;
+    let ref = document.getElementById('pai');
+    let novoItem = document.createElement('section');
+    novoItem.innerText = 'adicionado';
+    novoItem.id = 'adotado';
+    ref.appendChild(novoItem);
+
+    // Parte 10 - Crie um filho para elementoOndeVoceEsta;
+    let teste2 = document.createElement('section');
+    teste2.innerText = 'Olá';
+    teste2.id = 'adotado2';
+    document.getElementById('elementoOndeVoceEsta').appendChild(teste2);
+    
+    // Parte 11 - Crie um filho para primeiroFilhoDoFilho;
+    let teste3 = document.createElement('section');
+    teste3.id = 'adotado3';
+    teste3.innerText = 'olá de novo';
+    document.getElementById('primeiroFilhoDoFilho').appendChild(teste3);
+
+    // Parte 12 - A partir desse filho criado, acesse terceiroFilho.
+    console.log(document.getElementById('adotado3').parentElement.parentElement.nextElementSibling);
+
+    // Parte 13 - Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho;
+
+    let pai = document.getElementById('pai');
+    pai.removeChild(pai.lastElementChild);
+    pai.removeChild(pai.lastElementChild);
+    pai.removeChild(pai.lastElementChild);
+    pai.removeChild(pai.firstElementChild);
+
+    let filho = pai.firstElementChild;
+    filho.removeChild(filho.lastElementChild);
+    filho.removeChild(filho.lastElementChild);
+    
 </script>
