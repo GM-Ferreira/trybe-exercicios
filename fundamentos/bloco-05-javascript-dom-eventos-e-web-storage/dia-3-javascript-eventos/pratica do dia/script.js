@@ -17,18 +17,29 @@ const listaUl = document.getElementById('days');
 
 let decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
-    for (let index = 0; index < decemberDaysList.length; index += 1) {
-        const newDay = document.createElement('li');
-        newDay.innerHTML = decemberDaysList[index];
-        newDay.className = 'day';
-        
-        if(decemberDaysList[index] === 24 || decemberDaysList[index] === 25 || decemberDaysList[index] === 31){
-            newDay.classList.add('holiday');
-        }
+for (let index = 0; index < decemberDaysList.length; index += 1) {
+    const newDay = document.createElement('li');
+    newDay.innerHTML = decemberDaysList[index];
+    newDay.className = 'day';
 
-        if(decemberDaysList[index] === 4 || decemberDaysList[index] === 11 || decemberDaysList[index] === 18 || decemberDaysList[index] === 25){
-            newDay.classList.add('friday');
-        }
-
-        listaUl.appendChild(newDay);
+    if (decemberDaysList[index] === 24 || decemberDaysList[index] === 25 || decemberDaysList[index] === 31) {
+        newDay.classList.add('holiday');
     }
+
+    if (decemberDaysList[index] === 4 || decemberDaysList[index] === 11 || decemberDaysList[index] === 18 || decemberDaysList[index] === 25) {
+        newDay.classList.add('friday');
+    }
+
+    listaUl.appendChild(newDay);
+}
+
+function criarBotao() {
+    const divPai = document.getElementsByClassName('buttons-container');
+    const novoBotao = document.createElement('button');
+    novoBotao.innerText = 'Feriados';
+    novoBotao.id = 'btn-holiday';
+    console.log(novoBotao);
+    divPai[0].appendChild(novoBotao);
+}
+
+criarBotao();
