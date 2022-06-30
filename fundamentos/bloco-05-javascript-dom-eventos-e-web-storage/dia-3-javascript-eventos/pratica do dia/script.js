@@ -38,8 +38,22 @@ function criarBotao() {
     const novoBotao = document.createElement('button');
     novoBotao.innerText = 'Feriados';
     novoBotao.id = 'btn-holiday';
-    console.log(novoBotao);
     divPai[0].appendChild(novoBotao);
 }
 
 criarBotao();
+
+const novoBotao = document.getElementById('btn-holiday');
+
+novoBotao.addEventListener('click', function () {
+    const feriados = document.getElementsByClassName('holiday');
+    for (let index = 0; index < feriados.length; index += 1) {
+        if (feriados[index].style.backgroundColor === 'green') {
+            feriados[index].style.backgroundColor = 'rgb(238,238,238)';
+        } else {
+            feriados[index].style.backgroundColor = 'green';
+        }
+    }
+})
+
+
