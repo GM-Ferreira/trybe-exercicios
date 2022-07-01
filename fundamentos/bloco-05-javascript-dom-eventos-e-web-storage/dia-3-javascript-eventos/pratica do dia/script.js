@@ -56,4 +56,13 @@ novoBotao.addEventListener('click', function () {
     }
 })
 
+listaUl.addEventListener('mouseover', aumentar);
+listaUl.addEventListener('mouseout', retornar);
 
+function aumentar(event) {
+    event.target.style.fontSize = '40px';
+}
+
+function retornar(event){
+    event.target.style.fontSize = '20px';
+}
