@@ -61,4 +61,14 @@ const books = [
     },
   ];
   
-  // Adicione o código do exercício aqui:
+  function oldBooksOrdered(array) {
+   return array.filter((element) => {
+    return element.releaseYear < (2022-60);
+   }).sort((a,b) => {
+    if (a.releaseYear > b.releaseYear){
+      return 1
+    } return -1
+   })
+  }
+
+  console.log(oldBooksOrdered(books))
